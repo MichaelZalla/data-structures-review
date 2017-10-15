@@ -1,0 +1,15 @@
+{
+  "name": "data-structures-review",
+  "version": "0.1.0",
+  "description": "Practice implementations of data structures in C++.",
+  "main": "./README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/MichaelZalla/data-structures-review"
+  },
+  "author": "Michael Zalla",
+  "license": "MIT"
+}
