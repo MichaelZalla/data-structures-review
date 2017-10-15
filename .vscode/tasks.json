@@ -8,7 +8,7 @@
 			"type": "shell",
 			"command": "g++",
 			"args": [
-				"-g2", "-ggdb", /*"-Q", */"-O0", "./src/03-singly-linked-list/main.cpp", "./src/assert.cpp"
+				"-g2", "-ggdb", /*"-Q", */"-O0", "./src/05-circularly-linked-list/main.cpp", "./src/assert.cpp"
 			],
 			"group": {
                 "kind": "build",
