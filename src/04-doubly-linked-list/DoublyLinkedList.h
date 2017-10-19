@@ -41,19 +41,19 @@ public:
 
 	}
 
-	const bool isEmpty()
+	const bool isEmpty() const
 	{
 		return (this->head->next == this->tail);
 	}
 
-	const T& front()
+	const T& front() const throw(std::runtime_error)
 	{
 		this->assertNotEmpty();
 
 		return this->head->next->elem;
 	}
 
-	const T& back()
+	const T& back() const throw(std::runtime_error)
 	{
 		this->assertNotEmpty();
 
@@ -121,7 +121,7 @@ protected:
 
 	}
 
-	void assertNotEmpty()
+	void assertNotEmpty() throw(std::runtime_error)
 	{
 
 		if(this->isEmpty())

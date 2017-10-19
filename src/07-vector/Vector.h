@@ -47,13 +47,13 @@ public:
 	}
 
 	T& operator[](
-		int index)
+		int index) const
 	{
 		return this->collection[index];
 	}
 
 	T& at(
-		int index) throw(IndexOutOfBounds)
+		int index) const throw(IndexOutOfBounds)
 	{
 		this->assertSafeIndex(index);
 
@@ -140,7 +140,7 @@ private:
 	T* collection;
 
 	void assertSafeIndex(
-		int index) throw(IndexOutOfBounds)
+		const int index) const throw(IndexOutOfBounds)
 	{
 
 		if(index < 0 || index >= this->currentSize)

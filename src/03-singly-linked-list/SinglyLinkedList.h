@@ -24,12 +24,12 @@ public:
 
 	}
 
-	const bool isEmpty()
+	bool isEmpty() const
 	{
 		return (this->head == 0);
 	}
 
-	const T& front()
+	const T& front() const throw(std::runtime_error)
 	{
 
 		if(this->isEmpty())
@@ -61,7 +61,7 @@ public:
 
 	}
 
-	void removeFront()
+	void removeFront() throw(std::runtime_error)
 	{
 
 		const SinglyLinkedNode<T>* node = this->head;

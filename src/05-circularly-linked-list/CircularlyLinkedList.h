@@ -22,19 +22,19 @@ public:
 		delete this->cursor;
 	}
 
-	bool isEmpty()
+	bool isEmpty() const
 	{
 		return (this->cursor == 0);
 	}
 
-	const T& front()
+	const T& front() const throw(std::runtime_error)
 	{
 		this->assertNotEmpty();
 
 		return this->cursor->next->elem;
 	}
 
-	const T& back()
+	const T& back() const throw(std::runtime_error)
 	{
 		this->assertNotEmpty();
 
@@ -43,7 +43,7 @@ public:
 
 	// @NOTE(mzalla) Too harsh to throw exception on empty advance call?
 
-	void advance()
+	void advance() throw(std::runtime_error)
 	{
 		this->assertNotEmpty();
 
@@ -70,7 +70,7 @@ public:
 
 	}
 
-	void remove()
+	void remove() throw(std::runtime_error)
 	{
 		this->assertNotEmpty();
 
@@ -94,7 +94,7 @@ private:
 
 protected:
 
-	void assertNotEmpty()
+	void assertNotEmpty() throw(std::runtime_error)
 	{
 
 		if(this->isEmpty())
