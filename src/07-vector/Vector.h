@@ -1,3 +1,6 @@
+#include <iostream>
+#include <algorithm>
+
 #include "../assert.h"
 #include "../IndexOutOfBounds.h"
 
@@ -34,6 +37,29 @@ public:
 			delete[] this->collection;
 
 		}
+	}
+
+	void print()
+	{
+
+		std::cout << "Vector({ ";
+
+		int lastIndex = this->size() - 1;
+
+		for(int i = 0; i < this->size(); i++)
+		{
+
+			std::cout << this->at(i);
+
+			if(i != lastIndex)
+			{
+				std::cout << ", ";
+			}
+
+		}
+
+		std::cout << " })" << std::endl;
+
 	}
 
 	int size() const
