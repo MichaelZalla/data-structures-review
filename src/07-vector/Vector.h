@@ -149,7 +149,7 @@ public:
 		// Copy over values
 		for(int index = 0; index < this->currentSize; index++)
 		{
-			newCollection[index] = /*this[i]*/this->collection[index];
+			newCollection[index] = this->collection[index];
 		}
 
 		// Deallocate the original collection if necessary
@@ -160,6 +160,9 @@ public:
 
 		// Update our collection reference
 		this->collection = newCollection;
+
+		// Update our capacity marker
+		this->capacity = capacity;
 
 	}
 
