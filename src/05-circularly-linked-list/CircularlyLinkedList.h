@@ -47,7 +47,7 @@ public:
 	{
 		this->assertNotEmpty();
 
-		this->cursor = this->cursor->next();
+		this->cursor = this->cursor->next;
 	}
 
 	void add(const T& elem)
@@ -94,7 +94,7 @@ private:
 
 protected:
 
-	void assertNotEmpty() throw(std::runtime_error)
+	void assertNotEmpty() const throw(std::runtime_error)
 	{
 
 		if(this->isEmpty())

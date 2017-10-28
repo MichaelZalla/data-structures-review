@@ -24,6 +24,19 @@ int main(int argv, char** args)
 
 	assert("Back holds the integer '6'.", L->back() == 6);
 
+	L->advance();
+
+	assert("Front holds the integer '6'.", L->front() == 6);
+
+	assert("Back holds the integer '44'.", L->back() == 44);
+
+	L->advance();
+	L->advance();
+
+	assert("Front holds the integer '6'.", L->front() == 6);
+
+	assert("Back holds the integer '44'.", L->back() == 44);
+
 	while(!L->isEmpty())
 	{
 		L->remove();
