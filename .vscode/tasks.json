@@ -18,7 +18,8 @@
 				// "./src/05-circularly-linked-list/main.cpp",
 				// "./src/06-array/main.cpp",
 				// "./src/07-vector/main.cpp",
-				"./src/08-stack/main.cpp"
+				// "./src/08-stack/main.cpp",
+				"./src/08-stack/reverseVector.cpp"
 			],
 			"group": {
                 "kind": "build",
