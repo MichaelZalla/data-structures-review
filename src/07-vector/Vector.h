@@ -112,8 +112,12 @@ public:
 		const T& elem)
 	{
 
-		// Guarantee capacity
-		this->reserve(index + 1);
+		// Guarantee capacity (double capacity when needed)
+
+		if(index >= this->capacity)
+		{
+			this->reserve(std::max(1, this->capacity * 2));
+		}
 
 		// Shift higher-rank elements toward the back
 		for(int c = this->currentSize - 2; c >= index; c--)
