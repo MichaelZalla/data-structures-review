@@ -19,7 +19,8 @@
 				// "./src/06-array/main.cpp",
 				// "./src/07-vector/main.cpp",
 				// "./src/08-stack/main.cpp",
-				"./src/08-stack/reverseVector.cpp"
+				// "./src/08-stack/reverseVector.cpp",
+				"./src/09-queue/main.cpp"
 			],
 			"group": {
                 "kind": "build",
