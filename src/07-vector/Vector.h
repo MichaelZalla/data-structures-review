@@ -141,6 +141,24 @@ public:
 
 	}
 
+	void push(
+		const T&elem)
+	{
+		// Guarantee capacity (double capacity when needed)
+
+		if(this->currentSize >= this->capacity)
+		{
+			this->reserve(std::max(1, this->capacity * 2));
+		}
+
+		// Push the new element onto the end of the array
+		this->collection[this->currentSize] = elem;
+
+		// Resize the collection
+		this->currentSize++;
+
+	}
+
 	void reserve(
 		int capacity)
 	{
