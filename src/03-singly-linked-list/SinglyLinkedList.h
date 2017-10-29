@@ -1,3 +1,4 @@
+#include <iostream>
 #include <stdexcept>
 
 #include "./SinglyLinkedNode.h"
@@ -21,6 +22,30 @@ public:
 		}
 
 		delete this->head;
+
+	}
+
+	void print() const
+	{
+
+		std::cout << "SinglyLinkedList { ";
+
+		SinglyLinkedNode<T>* node = this->head;
+
+		while(node != 0)
+		{
+			std::cout << node->elem;
+
+			if(node->next != 0)
+			{
+				std::cout << ", ";
+			}
+
+			node = node->next;
+
+		}
+
+		std::cout << "}" << std::endl;
 
 	}
 
@@ -74,6 +99,41 @@ public:
 		this->head = this->head->next;
 
 		delete node;
+
+	}
+
+	void reverse()
+	{
+
+		if(this->isEmpty())
+		{
+			return;
+		}
+
+		SinglyLinkedNode<T>* currentNode = this->head;
+		SinglyLinkedNode<T>* previousNode = 0;
+		SinglyLinkedNode<T>* nextNode = currentNode->next;
+
+		while(nextNode != 0)
+		{
+
+			// Redirect the current node's 'next' pointer to the preceeding node
+			// (or to null);
+			currentNode->next = previousNode;
+
+			previousNode = currentNode;
+
+			// Advance to the next node;
+			currentNode = nextNode;
+
+			// Advance our 'next' pointer to the following node (or to null);
+			nextNode = nextNode->next;
+
+		}
+
+		currentNode->next = previousNode;
+
+		this->head = currentNode;
 
 	}
 
