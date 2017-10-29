@@ -90,7 +90,8 @@ public:
 		int index)
 	{
 
-		// Guarantee capacity
+		// Check index
+
 		this->assertSafeIndex(index);
 
 		// @TODO(mzalla) Shouldn't we dealloc the removed element to avoid
@@ -111,6 +112,10 @@ public:
 		int index,
 		const T& elem)
 	{
+
+		// Check index
+
+		this->assertSafeIndex(index);
 
 		// Guarantee capacity (double capacity when needed)
 
