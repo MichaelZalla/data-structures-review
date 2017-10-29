@@ -1,3 +1,6 @@
+#ifndef CIRCULARLY_LINKED_LIST_H
+#define CIRCULARLY_LINKED_LIST_H
+
 #include <stdexcept>
 
 #include "../assert.h"
@@ -105,3 +108,5 @@ protected:
 	}
 
 };
+
+#endif

@@ -1,3 +1,6 @@
+#ifndef ARRAY_QUEUE_H
+#define ARRAY_QUEUE_H
+
 #include "./QueueException.h"
 
 template <typename T>
@@ -87,3 +90,5 @@ private:
 	int rearIndex;
 
 };
+
+#endif

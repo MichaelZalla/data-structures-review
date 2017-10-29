@@ -1,3 +1,6 @@
+#ifndef INSERTION_SORT_H
+#define INSERTION_SORT_H
+
 template <typename T>
 void insertionSort(T* L, int length)
 {
@@ -21,3 +24,5 @@ void insertionSort(T* L, int length)
 	}
 
 }
+
+#endif

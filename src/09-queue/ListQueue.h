@@ -1,3 +1,6 @@
+#ifndef LIST_QUEUE_H
+#define LIST_QUEUE_H
+
 #include "../05-circularly-linked-list/CircularlyLinkedList.h"
 #include "./QueueException.h"
 
@@ -63,3 +66,5 @@ private:
 	CircularlyLinkedList<T>* list;
 
 };
+
+#endif

@@ -1,3 +1,6 @@
+#ifndef SINGLY_LINKED_LIST_H
+#define SINGLY_LINKED_LIST_H
+
 #include <iostream>
 #include <stdexcept>
 
@@ -142,3 +145,5 @@ private:
 	SinglyLinkedNode<T>* head;
 
 };
+
+#endif

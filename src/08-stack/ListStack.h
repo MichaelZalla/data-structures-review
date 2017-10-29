@@ -1,3 +1,6 @@
+#ifndef LIST_STACK_H
+#define LIST_STACK_H
+
 #include "../03-singly-linked-list/SinglyLinkedList.h"
 
 #include "./StackException.h"
@@ -60,3 +63,5 @@ private:
 	int stackSize;
 
 };
+
+#endif

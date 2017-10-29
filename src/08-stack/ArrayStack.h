@@ -1,3 +1,6 @@
+#ifndef ARRAY_STACK_H
+#define ARRAY_STACK_H
+
 #include "./StackException.h"
 
 template <typename T>
@@ -89,3 +92,5 @@ private:
 	T* A;
 
 };
+
+#endif
