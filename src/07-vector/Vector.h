@@ -124,10 +124,11 @@ public:
 			this->reserve(std::max(1, this->capacity * 2));
 		}
 
+		// Shift higher-rank elements toward the back
+
 		int lastIndex = this->currentSize - 1;
 
-		// Shift higher-rank elements toward the back
-		for(int c = lastIndex - 1; c >= index; c--)
+		for(int c = lastIndex; c > index; c--)
 		{
 			this->collection[c+1] = this->collection[c];
 		}
