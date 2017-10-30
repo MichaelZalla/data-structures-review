@@ -100,8 +100,8 @@ public:
 		// Swap the elements at positions a and b
 
 		T temp = *a;
-		a = *b;
-		b = temp;
+		*a = *b;
+		*b = temp;
 	}
 
 protected:
