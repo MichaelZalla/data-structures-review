@@ -24,8 +24,8 @@
 				// "./src/09-queue/main.cpp",
 				// "./src/10-deque/main.cpp",
 				// "./src/11-list/main.cpp",
-				"./src/12-complete-binary-tree/main.cpp",
-				// "./src/13-heap-priority-queue/main.cpp",
+				// "./src/12-complete-binary-tree/main.cpp",
+				"./src/13-heap-priority-queue/main.cpp",
 				// "./src/14-hash-map/main.cpp",
 			],
 			"group": {
