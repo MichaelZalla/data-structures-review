@@ -26,28 +26,9 @@ public:
 		return this->vector.size() - 1;
 	}
 
-	void print(const Position& position, int depth = 0)
-	{
+	void print() {
 
-		if(depth == 0)
-		{
-			std::cout << std::endl;
-		}
-
-		if(this->hasRightChild(position)) {
-			print(this->rightChild(position), depth + 1);
-		}
-
-		std::cout << std::string(depth, '\t') << std::string(5, '-') << *position << std::endl;
-
-		if(this->hasLeftChild(position)) {
-			print(this->leftChild(position), depth + 1);
-		}
-
-		if(depth == 0)
-		{
-			std::cout << std::endl;
-		}
+		this->print(this->root());
 
 	}
 
@@ -143,6 +124,38 @@ protected:
 private:
 
 	std::vector<T> vector;
+
+	void print(
+		const Position& position,
+		int depth = 0)
+	{
+
+		if(this->size() == 0)
+		{
+			return;
+		}
+
+		if(depth == 0)
+		{
+			std::cout << std::endl;
+		}
+
+		if(this->hasRightChild(position)) {
+			this->print(this->rightChild(position), depth + 1);
+		}
+
+		std::cout << std::string(depth, '\t') << *position << std::endl;
+
+		if(this->hasLeftChild(position)) {
+			this->print(this->leftChild(position), depth + 1);
+		}
+
+		if(depth == 0)
+		{
+			std::cout << std::endl;
+		}
+
+	}
 
 };
 

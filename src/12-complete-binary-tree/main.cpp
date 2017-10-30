@@ -14,18 +14,18 @@ int main(int argsc, char** argv)
 	cbt.addLast(15);
 	cbt.addLast(9105);
 
-	cbt.print(cbt.root());
+	cbt.print();
 
 	cbt.removeLast();
 	cbt.removeLast();
 
-	cbt.print(cbt.root());
+	cbt.print();
 
 	cbt.removeLast();
 	cbt.removeLast();
 	cbt.removeLast();
 
-	cbt.print(cbt.root());
+	cbt.print();
 
 	return 0;
 
