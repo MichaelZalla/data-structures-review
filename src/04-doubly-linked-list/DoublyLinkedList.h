@@ -124,7 +124,7 @@ protected:
 
 	}
 
-	void assertNotEmpty() throw(std::runtime_error)
+	void assertNotEmpty() const throw(std::runtime_error)
 	{
 
 		if(this->isEmpty())
