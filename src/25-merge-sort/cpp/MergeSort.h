@@ -6,11 +6,7 @@
 
 template <typename T>
 std::vector<T> mergeSort(
-	const std::vector<T>& collection
-	/*,
-	typename std::vector<T>::iterator begin,
-	typename std::vector<T>::iterator end*/
-	)
+	const std::vector<T>& collection)
 {
 
 	typedef typename std::vector<T>::const_iterator Iterator;
@@ -40,12 +36,5 @@ std::vector<T> mergeSort(
 	return merge(leftSorted, rightSorted);
 
 }
-
-// template <typename T>
-// std::vector<T> mergeSort(
-// 	std::vector<T>& collection)
-// {
-// 	return mergeSort(collection, collection.begin(), collection.end());
-// }
 
 #endif

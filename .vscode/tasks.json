@@ -14,20 +14,21 @@
 				//"-Q",
 				"-O0",
 				"./src/assert.cpp",
-				// "./src/03-singly-linked-list/main.cpp",
-				// "./src/03-singly-linked-list/reversal.cpp",
-				// "./src/04-doubly-linked-list/main.cpp",
-				// "./src/05-circularly-linked-list/main.cpp",
-				// "./src/06-array/main.cpp",
-				// "./src/07-vector/main.cpp",
-				// "./src/08-stack/main.cpp",
-				// "./src/08-stack/reverseVector.cpp",
-				// "./src/09-queue/main.cpp",
-				// "./src/10-deque/main.cpp",
-				// "./src/11-list/main.cpp",
-				// "./src/12-complete-binary-tree/main.cpp",
-				// "./src/13-heap-priority-queue/main.cpp",
-				"./src/24-merge-sort/cpp/main.cpp"
+				// "./src/03-singly-linked-list/main.cpp"
+				// "./src/03-singly-linked-list/reversal.cpp"
+				// "./src/04-doubly-linked-list/main.cpp"
+				// "./src/05-circularly-linked-list/main.cpp"
+				// "./src/06-array/main.cpp"
+				// "./src/07-vector/main.cpp"
+				// "./src/08-stack/main.cpp"
+				// "./src/08-stack/reverseVector.cpp"
+				// "./src/09-queue/main.cpp"
+				// "./src/10-deque/main.cpp"
+				// "./src/11-list/main.cpp"
+				// "./src/12-complete-binary-tree/main.cpp"
+				// "./src/13-heap-priority-queue/main.cpp"
+				// "./src/24-insertion-sort/cpp/main.cpp"
+				"./src/25-merge-sort/cpp/main.cpp"
 			],
 			"group": {
                 "kind": "build",
