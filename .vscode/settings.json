@@ -2,6 +2,29 @@
 	"files.associations": {
 		"__bit_reference": "cpp",
 		"string": "cpp",
-		"stdexcept": "cpp"
+		"stdexcept": "cpp",
+		"limits": "cpp",
+		"*.tcc": "cpp",
+		"bitset": "cpp",
+		"cctype": "cpp",
+		"clocale": "cpp",
+		"cmath": "cpp",
+		"cstdarg": "cpp",
+		"cstddef": "cpp",
+		"cstdio": "cpp",
+		"cstdlib": "cpp",
+		"cstring": "cpp",
+		"ctime": "cpp",
+		"cwchar": "cpp",
+		"cwctype": "cpp",
+		"exception": "cpp",
+		"iosfwd": "cpp",
+		"iostream": "cpp",
+		"istream": "cpp",
+		"memory": "cpp",
+		"new": "cpp",
+		"ostream": "cpp",
+		"streambuf": "cpp",
+		"typeinfo": "cpp"
 	}
 }
