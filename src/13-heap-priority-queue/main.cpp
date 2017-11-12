@@ -1,12 +1,12 @@
 #include "../12-complete-binary-tree/VectorCompleteBinaryTree.h"
 
 #include "./HeapPriorityQueue.h"
-#include "./IntegerComparator.h"
+#include "./IntegerLessThanComparator.h"
 
 int main(int argc, char** argv)
 {
 
-	HeapPriorityQueue<int, IntegerComparator> hpq;
+	HeapPriorityQueue<int, IntegerLessThanComparator> hpq;
 
 	hpq.print();
 
