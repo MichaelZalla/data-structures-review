@@ -29,7 +29,8 @@
 				// "./src/13-heap-priority-queue/main.cpp"
 				// "./src/24-insertion-sort/cpp/main.cpp"
 				// "./src/25-merge-sort/cpp/main.cpp"
-				"./src/26-heap-sort/cpp/main.cpp"
+				// "./src/26-heap-sort/cpp/main.cpp"
+				"./src/28-bucket-sort/cpp/main.cpp"
 			],
 			"group": {
                 "kind": "build",
