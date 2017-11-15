@@ -4,7 +4,7 @@
 #include <iostream>
 #include <algorithm>
 
-#include "../assert.h"
+#include "../utils/Assert.h"
 #include "../IndexOutOfBounds.h"
 
 template <typename T>

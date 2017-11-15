@@ -3,7 +3,7 @@
 
 #include <stdexcept>
 
-#include "../assert.h"
+#include "../utils/Assert.h"
 #include "./CircularlyLinkedNode.h"
 
 template <typename T>

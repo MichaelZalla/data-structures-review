@@ -13,7 +13,6 @@
 				"-ggdb",
 				//"-Q",
 				"-O0",
-				"./src/assert.cpp",
 				// "./src/03-singly-linked-list/main.cpp"
 				// "./src/03-singly-linked-list/reversal.cpp"
 				// "./src/04-doubly-linked-list/main.cpp"

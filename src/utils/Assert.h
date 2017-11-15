@@ -1,3 +1,6 @@
+#ifndef ASSERT_H
+#define ASSERT_H
+
 #include <iostream>
 #include <stdexcept>
 
@@ -16,3 +19,5 @@ void assert(const char* conditionDescription, bool condition)
 	return;
 
 }
+
+#endif

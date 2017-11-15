@@ -1,4 +1,4 @@
-#include "../assert.h"
+#include "../utils/Assert.h"
 
 #include "./ArrayQueue.h"
 #include "./ListQueue.h"

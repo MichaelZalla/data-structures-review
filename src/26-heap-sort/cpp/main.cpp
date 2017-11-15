@@ -1,8 +1,9 @@
 #include <iterator>
 #include <vector>
 
-#include "../../assert.h"
-#include "../../07-vector/PrintVector.h"
+#include "../../utils/Assert.h"
+#include "../../utils/GetVector.h"
+#include "../../utils/PrintVector.h"
 #include "../../13-heap-priority-queue/IntegerLessThanComparator.h"
 #include "../../13-heap-priority-queue/IntegerGreaterThanComparator.h"
 
@@ -10,19 +11,6 @@
 #include "./InPlaceHeapSort.h"
 
 typedef std::vector<int> List;
-
-template <typename T>
-std::vector<T> getVector(T* collection, int size)
-{
-	std::vector<T> result;
-
-	if(sizeof(collection) != 0)
-	{
-		result = std::vector<T>(collection, collection + size);
-	}
-
-	return result;
-}
 
 int main(int argc, char** argv)
 {

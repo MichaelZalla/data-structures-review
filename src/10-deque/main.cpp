@@ -1,4 +1,4 @@
-#include "../assert.h"
+#include "../utils/Assert.h"
 #include "./Deque.h"
 
 int main(int argc, char** argv)

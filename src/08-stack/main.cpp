@@ -1,4 +1,4 @@
-#include "../assert.h"
+#include "../utils/Assert.h"
 
 #include "./ArrayStack.h"
 #include "./ListStack.h"

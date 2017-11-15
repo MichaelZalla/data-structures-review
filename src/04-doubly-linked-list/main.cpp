@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stdexcept>
 
-#include "../assert.h"
+#include "../utils/Assert.h"
 #include "./DoublyLinkedList.h"
 
 int main(int argv, char** args)

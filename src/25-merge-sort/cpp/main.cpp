@@ -1,9 +1,9 @@
 #include <vector>
 #include <iostream>
 
-#include "../../assert.h"
+#include "../../utils/Assert.h"
 
-#include "../../07-vector/PrintVector.h"
+#include "../../utils/PrintVector.h"
 #include "./MergeSort.h"
 #include "./Merge.h"
 

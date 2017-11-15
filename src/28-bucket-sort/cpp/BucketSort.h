@@ -3,7 +3,7 @@
 
 #include <vector>
 
-#include "../../assert.h"
+#include "../../utils/Assert.h"
 
 typedef std::vector<int> Bucket;
 

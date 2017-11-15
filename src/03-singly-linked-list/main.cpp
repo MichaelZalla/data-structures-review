@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "../assert.h"
+#include "../utils/Assert.h"
 #include "./SinglyLinkedList.h"
 
 int main(int argv, char** args)
