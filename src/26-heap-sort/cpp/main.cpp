@@ -1,9 +1,9 @@
 #include <iterator>
 #include <vector>
 
-#include "../../utils/Assert.h"
-#include "../../utils/GetVector.h"
-#include "../../utils/PrintVector.h"
+#include "../../utils/cpp/Assert.h"
+#include "../../utils/cpp/GetVector.h"
+#include "../../utils/cpp/PrintVector.h"
 #include "../../13-heap-priority-queue/IntegerLessThanComparator.h"
 #include "../../13-heap-priority-queue/IntegerGreaterThanComparator.h"
 

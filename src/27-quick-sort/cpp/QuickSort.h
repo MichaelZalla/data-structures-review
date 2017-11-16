@@ -3,8 +3,8 @@
 
 #include <vector>
 
-#include "../../utils/Assert.h"
-#include "../../utils/PrintVector.h"
+#include "../../utils/cpp/Assert.h"
+#include "../../utils/cpp/PrintVector.h"
 
 template <typename T>
 void quickSort(

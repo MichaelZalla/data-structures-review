@@ -3,14 +3,13 @@
 
 #include <vector>
 
-#include "../../utils/Assert.h"
+#include "../../utils/cpp/Assert.h"
 
 typedef std::vector<int> Bucket;
 
 void bucketSort(
 	std::vector<int>& collection)
 {
-
 
 	int size = collection.size();
 

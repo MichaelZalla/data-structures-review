@@ -3,7 +3,7 @@
 
 #include <stdexcept>
 
-#include "../utils/Assert.h"
+#include "../utils/cpp/Assert.h"
 #include "./DoublyLinkedNode.h"
 
 template <typename T>

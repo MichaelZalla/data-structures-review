@@ -7,8 +7,8 @@
 
 #include <iostream>
 
-#include "../../utils/Assert.h"
-#include "../../utils/PrintVector.h"
+#include "../../utils/cpp/Assert.h"
+#include "../../utils/cpp/PrintVector.h"
 
 template <typename T, typename C>
 void inPlaceHeapSort(
