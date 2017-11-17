@@ -31,7 +31,8 @@
 				// "./src/26-heap-sort/cpp/main.cpp"
 				// "./src/27-quick-sort/cpp/main.cpp"
 				// "./src/28-bucket-sort/cpp/main.cpp"
-				"./src/29-radix-sort/cpp/main.cpp"
+				// "./src/29-radix-sort/cpp/main.cpp"
+				"./src/30-binary-search/cpp/main.cpp"
 			],
 			"group": {
                 "kind": "build",
